@@ -1,0 +1,81 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Play', helvetica neue, arial, sans-serif;
+  font-size: 30;
+  color: floralwhite;
+  background-color: white;
+  background-image: url(fireworks.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  border-bottom: 1px solid floralwhite;
+}
+a { 
+  color: floralwhite;
+}
+a:hover {
+  color: red;
+}
+p, li { 
+  font-size: 20px;
+  line-height: 20px;
+}
+
+
+
+#title {
+	float: right;
+}
+
+#poster {
+	float: right;
+}
+
+#teams {
+	clear: both;
+}
+
+  #packers {
+  clear: both;
+  background-color: palegreen;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 1px;
+}
+
+ #seahawks {
+  clear: both;
+  background-color: slategray;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+ #patriots {
+  clear: both;
+  background-color: salmon;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+ #colts {
+  clear: both;
+  background-color: skyblue;
+  color: black;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+#odds {
+	font-size: 20px;
+  line-height: 20px;
+ }
