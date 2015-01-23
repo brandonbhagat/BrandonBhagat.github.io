@@ -3,61 +3,140 @@
 <head>
   <title>Kool-Aid Man</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="NewStyle.css">
+  <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-  <div id="wrapper">
-    <h1>Kool-Aid Man</h1>
-    <p>
-      <img src="Kool-AidMan.jpg">
-    </p>
-    <div id="superbowl">
-    <h2><a href="SuperBowl.html">Check out my NFL Playoffs Page!</a></h2>
-     
+  <div class="container">
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
 
-     </div> 
-
-    <section>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:bbhagat2015@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="https://twitter.com/thekoolaidman">Twitter</a></li>
-        <li><a href="https://www.facebook.com/KoolAidMan">Facebook</a></li>
-        <BUTTON>PUSH ME!</BUTTON>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="SuperBowl.html">Super Bowl Page <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Fun Stuff <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.espn.com">ESPN</a></li>
+            <li><a href="https://twitter.com/thekoolaidman">Twitter</a></li>
+            <li><a href="https://www.facebook.com/KoolAidMan">Facebook</a></li>
+        </ul>
+        </li>
       </ul>
-    </section>
-    <section>
-      <h4>Summary</h4>
-      <p>
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  
+</nav>
+
+
+
+
+    <div class="jumbotron">
+          <h1>The Kool-Aid Man Presents...</h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-1">
+        </div>
+    <div class="col-xs-3">
+      <h1>His hilariously awful website!</h1>
+      <h2><a href="SuperBowl.html" class="btn btn-primary">But first, check out my NFL Playoffs Page!</a></h1>
+      
+    </div>
+<div class="col-xs-1">
+        </div>
+
+    <div class="col-xs-6">
+      <img src="Kool-AidMan.jpg" width=600 height=500>
+    </div>  
+    <div class="col-xs-1">
+        </div>
+        
+
+
+    
+
+   <div class="row">
+      <div class="col-xs-3">
+        <h4>Summary</h4>
+        <p>
         Kool-Aid Man is an anthropomorphic pitcher filled with Kool-Aid. Born in the 1950s, he gained notoriety after bursting through multiple brick walls yelling "Oh Yeah!"
-      </p>
-    </section>
-    <section>
-      <h4>Experience</h4>
-      <section>
+        </p>
+      </div>
+      <div class="col-xs-3">
+        <h4>Experience</h4>
         <h5>Current: Front Man, Kool-Aid & The Gang</h5>
-        <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Oh Yeah!"</h6>
-      </section>
-      <section>
         <h5>Past: Beverage Receptacle</h5>
-        <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delicious.</h6>
-      </section>
-    </section>
-    <section>
-      <h4>Skills</h4>
+      </div>  
+      <div class="col-xs-3">
+        <h4>Skills</h4>
       <ul>
         <li>Holding beverages</li>
         <li>Yelling</li>
         <li>Bursting through walls</li>
       </ul>
-    </section>
-    <section>
+    </div>
+    <div class="col-xs-3">
       <h4>Hobbies</h4>
       <ul>
         <li>Relaxing at home with the family</li>
         <li>Chilling ice cubes</li>
       </ul>
-    </section>
-  </div>
+    </div>
+  </div>  
+
+
+
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 col-xs-4">
+        <h4>Kool-Aid Recipes</h4>
+      </div>
+    </div> 
+</div>
+
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Food</td>
+          <td>Watermelon Kool-Aid Cupcakes</td>
+          <td><a href="http://www.kraftrecipes.com/recipes/watermelon-kool-aid-cupcakes-148791.aspx" class="btn btn-success">KraftRecipes.com</a></td>
+          </tr>
+        <tr>/td>
+          <td>Non-Alcoholic</td>
+          <td>Fruit Punch</td>
+          <td><a href="http://www.drinksmixer.com/cat/186/"class="btn btn-warning">DrinksMixer.com</a></td>
+          
+        </tr>
+        <tr>
+          <td>Alcoholic</td>
+          <td>Anti-Freeze</td>
+          <td><a href="http://www.barnonedrinks.com/drinks/by_ingredient/k/kool-aid-603.html" class="btn btn-danger">BarNoneDrinks.com</a></td>
+        
+        </tr>
+      </tbody>
+    </table>
+
 </body>
 </html>
