@@ -1,112 +1,164 @@
 <!DOCTYPE html>
-
 <html>
-
-<!-- Head -->
 <head>
-  <title>Super Bowl!</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="SuperBowl.css">
+  <title>Super Bowl Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSSpage.css">
   <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
-<!-- Body -->
 <body>
-<div id="title">
-    <h1>Kool Aid Man's NFL Playoffs Picks!</h1>
-</div>
-
-<div id="poster">
-	<img src="AndyReid.png" height=300>
-</div>
-
-<div id="teams">
-<h1>Teams</h1>
-<h2> <i class="fa fa-lock">&nbsp;Represents KAM's picks</i> </h2>
-</div>
-
-<div id="packers">
-	<img src="pack.png" width=100>
-	<h2> <a href="http://espn.go.com/nfl/team/_/name/gb/green-bay-packers"> Green Bay Packers</a> </h2>  
-	<p>
-		The Packers finished the regular season 12-4 led by QB Aaron Rodgers and RB Eddie Lacy. They beat the Dallas Cowboys in the Divisional Playoffs and will travel to Seattle for the Conference Playoffs. 
-	</p>
-
-</div>
-
-<div id="seahawks">
-	<img src="hawk.png" width=100>
-	<h2> <a href="http://espn.go.com/nfl/team/_/name/sea/seattle-seahawks"> Seattle Seahawks</a> 		<i class="fa fa-lock"></i>
-		 </h2>  
-	<p>
-		The Seahawks finished the regular season 12-4 led by QB Russell Wilson and their vaunted defense. They beat the Carolina Panthers in the Divisional Playoffs and will take on Green Bay at home in the Conference Playoffs. 
-
-	</p>
-
-</div>
-
-<div id="patriots">
-	<img src="pats.png" width=100>
-	<h2> <a href="http://espn.go.com/nfl/team/_/name/ne/new-england-patriots"> New England Patriots</a> <i class="fa fa-lock"></i></h2>  
-	<p>
-		The Patriots finished the regular season 12-4 led by QB Tom Brady and TE Rob Gronkowski. They beat the Baltimore Ravens in the Divisional Playoffs and will take on Indianapolis at home in the Conference Playoffs. 
-	</p>
-
-</div>
-
-<div id="colts">
-	<img src="colts.png" width=100>
-	<h2> <a href="http://espn.go.com/nfl/team/_/name/ind/indianapolis-colts"> Indianapolis Colts</a> </h2>  
-	<p>
-		The Colts finished the regular season 11-5 led by QB Andrew Luck and WR T.Y. Hilton. They beat the Denver Broncos in the Divisional Playoffs and will take on New England in the Conference Playoffs. 
-	</p>
-</div>
-
-
-
-
-<div id="odds">
-<h1>Vegas Odds</h1>
-<table>
-    <tr>
-      <td>Packers</td>
-      <td>7 Point Underdogs</td>
-      <td><a href="http://www.vegasinsider.com/nfl/odds/las-vegas/"> Vegas Insider</a></td>
-    </tr>
-    <tr>
-      <td>Seahawks</td>
-      <td> 7 Point Favorites</td>
-      <td><a href="http://www.vegasinsider.com/nfl/odds/las-vegas/"> Vegas Insider</a></td>
-    </tr>
-    <tr>
-      <td>Patriots</td>
-      <td> 7 Point Favorites </td>
-      <td><a href="http://www.vegasinsider.com/nfl/odds/las-vegas/"> Vegas Insider</a></td>
-    </tr>
-    <tr>
-      <td>Colts</td>
-      <td>7 Point Underdogs </td>
-      <td><a href="http://www.vegasinsider.com/nfl/odds/las-vegas/"> Vegas Insider</a></td>
-    </tr>
-  </table>
-</div>
-
-<div id="injuries">
-<h1>Key Injuries</h1>	
-	<ul>
-      <li> Green Bay Packers: Aaron Rodgers limited in practice </li>
-      <li> Seattle Seahawks: Justin Britt and Tony McDaniel held out of practice </li>
-      <li> New England Patriots: Bryan Stork and Brandon Browner probably out </li>
-      <li> Indianapolis Colts: Vontae Davis, Greg Toler, Erik Walden held out of practice </li>
+  <div class="container">
+    <nav class="navbar">
+      <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+         <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li> 
+          <li class="active"><a href="SuperBowl.html">Super Bowl Page <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="kings.html">Kings Page <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Fun Stuff <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          <li><a href="http://www.espn.com">ESPN</a></li>
+          <li><a href="https://twitter.com/thekoolaidman">Twitter</a></li>
+          <li><a href="https://www.facebook.com/KoolAidMan">Facebook</a></li>
           </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+  <div class="jumbotron">
+      <h1>Kool-Aid Man's NFL Playoff Picks!</h1>
   </div>
 
+  <div class="row">
+    <div class="col-xs-3">
+    </div>
+    <div class="col-xs-6">
+        <img src="AndyReid.png" width=600 height=500>
+    </div>  
+    <div class="col-xs-3">
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-xs-4">
+    </div>
+    <div class="col-xs-4">
+      <h1 class="teams"><strong> Teams</strong></h1>
+    </div>
+    <div class="col-xs-4">
+    </div>
+  </div>
 
-  <h1><a href="index.html">Head back to my main page!</a></h2>
+  <div class="row">  
+    <div class="col-xs-2">
+      <img src="hawk.png" width=150 height=75>
+    </div>
+    <div class="col-xs-4">
+      <h2> <a href="http://espn.go.com/nfl/team/_/name/sea/seattle-seahawks"> Seattle Seahawks</a> </h2>
+    </div>
+    <div class="col-xs-6">
+      <p>The Seahawks finished the regular season 12-4 led by QB Russell Wilson and RB Marshawn Lynch. They beat the Baltimore Ravens and the Green Bay Packers in the the 2015 NFL Playoffs and will take on New England in Arizona for the Super Bowl.</p>
+    </div>
+  </div>
 
+  <div class="row">  
+    <div class="col-xs-2">
+      <img src="pats.png" width=150 height=75>
+    </div>
+    <div class="col-xs-4">
+      <h2> <a href="http://espn.go.com/nfl/team/_/name/ne/new-england-patriots"> New England Patriots</a> </h2> 
+    </div>
+    <div class="col-xs-6">
+      <p>The Patriots finished the regular season 12-4 led by QB Tom Brady and TE Rob Gronkowski. They beat the Baltimore Ravens and the Indianapolis Colts in the 2015 NFL Playoffs and will take on Seattle in Arizona for the Super Bowl.</p>
+    </div>
+  </div>  
 
-</body>
+  <div class="row"> 
+    <div class="col-xs-12">
+    </div>
+  </div> 
 
+  <div class="row"> 
+    <div class="col-xs-12">
+    </div>
+  </div> 
+
+  <div class="row"> 
+    <div class="col-xs-12">
+    </div>
+  </div> 
+    
+  <div class="row">
+    <div class="col-xs-3">
+      <h2> And the winner is... </h2>
+    </div>
+    <div class="col-xs-5">
+      <img src="brady.jpg" width=400 height=300>
+    </div>
+    <div class="col-xs-4">
+      <h1> Patriots 28, Seahwawks 24 </h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-4">
+    </div>
+    <div class="col-xs-4">
+      <h1>Key Statistics</h1>
+    </div>
+    <div class="col-xs-4">
+    </div>
+  </div>
+
+  <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Position</th>
+          <th>Numbers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tom Brady</td>
+          <td>QB</td>
+          <td>328 yards passing, 4 touchdowns, 2 interceptions</td>
+        </tr>
+        <tr>
+          <td>Russell Wilson</td>
+          <td>QB</td>
+          <td>247 yards passing, 2 touchdowns, 1 interceptions</td>
+        </tr>
+        <tr>
+          <td>Marshawn Lynch</td>
+          <td>RB</td>
+          <td>102 yards rushing, 1 touchdown</td>
+        </tr>  
+        <tr>
+          <td>Julian Edelman</td>
+          <td>WR</td>
+          <td>109 yards receiving, 1 touchdown</td>
+        </tr> 
+        <tr>
+          <td>Chris Matthews</td>
+          <td>WR</td>
+          <td>109 yards receiving, 1 touchdown</td>
+        </tr> 
+        <tr>
+          <td>Rob Gronkowski</td>
+          <td>TE</td>
+          <td>68 yards receiving, 1 touchdown</td>
+        </tr> 
+      </tbody>
+    </table>  
+  </div>  
+  </body>
 </html>

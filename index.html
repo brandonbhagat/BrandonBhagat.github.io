@@ -4,7 +4,7 @@
   <title>Kool-Aid Man</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="NewStyle.css">
+  <link rel="stylesheet" href="CSSpage.css">
   <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -12,27 +12,25 @@
 
 <body>
   <div class="container">
-        <nav class="navbar">
-  <div class="container-fluid">
- 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li> 
-        <li class="active"><a href="SuperBowl.html">Super Bowl Page <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Fun Stuff <span class="caret"></span></a>
+    <nav class="navbar">
+      <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+         <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li> 
+          <li class="active"><a href="SuperBowl.html">Super Bowl Page <span class="sr-only">(current)</span></a></li>
+          <li class="active"><a href="kings.html">Kings Page <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other Fun Stuff <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="http://www.espn.com">ESPN</a></li>
-            <li><a href="https://twitter.com/thekoolaidman">Twitter</a></li>
-            <li><a href="https://www.facebook.com/KoolAidMan">Facebook</a></li>
+          <li><a href="http://www.espn.com">ESPN</a></li>
+          <li><a href="https://twitter.com/thekoolaidman">Twitter</a></li>
+          <li><a href="https://www.facebook.com/KoolAidMan">Facebook</a></li>
+          </ul>
+          </li>
         </ul>
-        </li>
-      </ul>
-  </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  
-</nav>
+      </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
 
 
@@ -51,7 +49,7 @@
     </div>
 
     <div class="row">
-      <div class="col-xs-3">
+      <div class="col-xs-3  ">
       </div>
       <div class="col-xs-6">
           <h1>His hilariously simple website!</h1>
@@ -95,9 +93,7 @@
       <div class="col-xs-4 col-xs-offset-4 col-xs-4">
         <h1>Kool-Aid Recipes</h1>
       </div>
-    </div> 
-</div>
-
+    </div>
 
     <table class="table table-bordered">
       <thead>
@@ -112,21 +108,72 @@
           <td>Food</td>
           <td>Watermelon Kool-Aid Cupcakes</td>
           <td><a href="http://www.kraftrecipes.com/recipes/watermelon-kool-aid-cupcakes-148791.aspx" class="btn btn-success">KraftRecipes.com</a></td>
-          </tr>
-        <tr>/td>
+        </tr>
+        <tr>
           <td>Non-Alcoholic</td>
           <td>Fruit Punch</td>
           <td><a href="http://www.drinksmixer.com/cat/186/"class="btn btn-warning">DrinksMixer.com</a></td>
-          
         </tr>
         <tr>
           <td>Alcoholic</td>
           <td>Anti-Freeze</td>
           <td><a href="http://www.barnonedrinks.com/drinks/by_ingredient/k/kool-aid-603.html" class="btn btn-danger">BarNoneDrinks.com</a></td>
-        
         </tr>
       </tbody>
     </table>
 
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 col-xs-4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3">
+      </div>
+      <div class="col-xs-6">
+        <h1>Submit Your Own Recipe Today!</h1>
+      </div>
+      <div class="col-xs-3">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3">
+      </div>
+      <div class="col-xs-6"> 
+          <form action="mailto: bbhagat2015@kellogg.northwestern.edu">
+
+          <div class="form-group">
+            <label for="subject">Recipe Name</label>
+            <input type="text" class="form-control" id="subject" placeholder="Grape Whirlpool" name="subject">
+          </div>
+          <div class="form-group">
+            <label for="body">Description</label>
+            <input type="text" class="form-control" id="body" placeholder="1 part Grape Kool-Aid, 1 part vodka" name="body">
+          </div>
+
+           <button type="submit">Submit!</button>
+          </form>
+      </div>
+      <div class="col-xs-3">
+      </div>
+     </div> 
+
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 col-xs-4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 col-xs-4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4 col-xs-4">
+      </div>
+    </div>
+
+  </div>    
 </body>
 </html>
