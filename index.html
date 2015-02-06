@@ -10,9 +10,9 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="htmlbody">
   <div class="container">
-    <nav class="navbar">
+    <nav class="navbar" id="nav">
       <div class="container-fluid">
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -42,7 +42,7 @@
         </div>
         
         <div class="col-xs-6">
-          <img src="Kool-AidMan.jpg" width=600 height=500>
+          <img src="KAM.jpg" width=600 height=500>
         </div>  
         <div class="col-xs-3">
         </div>
@@ -61,28 +61,28 @@
    <div class="row">
       <div class="col-xs-3">
         <h2>Summary</h2>
-        <p>
+        <p id="smalltext">
         Kool-Aid Man is an anthropomorphic pitcher filled with Kool-Aid. Born in the 1950s, he gained notoriety after bursting through multiple brick walls yelling "Oh Yeah!"
         </p>
       </div>
       <div class="col-xs-3">
         <h2>Experience</h2>
-        <h5>Current: Front Man, Kool-Aid & The Gang</h5>
-        <h5>Past: Beverage Receptacle</h5>
+        <h5 id="smalltext">Current: Front Man, Kool-Aid & The Gang</h5>
+        <h5 id="smalltext">Past: Beverage Receptacle</h5>
       </div>  
       <div class="col-xs-3">
         <h2>Skills</h2>
       <ul>
-        <li>Holding beverages</li>
-        <li>Yelling</li>
-        <li>Bursting through walls</li>
+        <li id="smalltext">Holding beverages</li>
+        <li id="smalltext">Yelling</li>
+        <li id="smalltext">Bursting through walls</li>
       </ul>
     </div>
     <div class="col-xs-3">
       <h2>Hobbies</h2>
       <ul>
-        <li>Relaxing at home with the family</li>
-        <li>Chilling ice cubes</li>
+        <li id="smalltext">Relaxing at home with the family</li>
+        <li id="smalltext">Chilling ice cubes</li>
       </ul>
     </div>
   </div>  
@@ -95,29 +95,29 @@
       </div>
     </div>
 
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="kamtable">
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Name</th>
-          <th>Link</th>
+          <th  id="smalltext">Type</th>
+          <th  id="smalltext">Name</th>
+          <th  id="smalltext">Link</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Food</td>
-          <td>Watermelon Kool-Aid Cupcakes</td>
-          <td><a href="http://www.kraftrecipes.com/recipes/watermelon-kool-aid-cupcakes-148791.aspx" class="btn btn-success">KraftRecipes.com</a></td>
+          <td  id="smalltext">Food</td>
+          <td  id="smalltext">Watermelon Kool-Aid Cupcakes</td>
+          <td  id="smalltext"><a href="http://www.kraftrecipes.com/recipes/watermelon-kool-aid-cupcakes-148791.aspx" class="btn btn-success">KraftRecipes.com</a></td>
         </tr>
         <tr>
-          <td>Non-Alcoholic</td>
-          <td>Fruit Punch</td>
-          <td><a href="http://www.drinksmixer.com/cat/186/"class="btn btn-warning">DrinksMixer.com</a></td>
+          <td  id="smalltext">Non-Alcoholic</td>
+          <td  id="smalltext">Fruit Punch</td>
+          <td  id="smalltext"><a href="http://www.drinksmixer.com/cat/186/"class="btn btn-warning">DrinksMixer.com</a></td>
         </tr>
         <tr>
-          <td>Alcoholic</td>
-          <td>Anti-Freeze</td>
-          <td><a href="http://www.barnonedrinks.com/drinks/by_ingredient/k/kool-aid-603.html" class="btn btn-danger">BarNoneDrinks.com</a></td>
+          <td  id="smalltext">Alcoholic</td>
+          <td  id="smalltext">Anti-Freeze</td>
+          <td  id="smalltext"><a href="http://www.barnonedrinks.com/drinks/by_ingredient/k/kool-aid-603.html" class="btn btn-danger">BarNoneDrinks.com</a></td>
         </tr>
       </tbody>
     </table>
@@ -144,11 +144,11 @@
           <form action="mailto: bbhagat2015@kellogg.northwestern.edu">
 
           <div class="form-group">
-            <label for="subject">Recipe Name</label>
+            <label for="subject"  id="smalltext">Recipe Name</label>
             <input type="text" class="form-control" id="subject" placeholder="Grape Whirlpool" name="subject">
           </div>
           <div class="form-group">
-            <label for="body">Description</label>
+            <label for="body"  id="smalltext">Description</label>
             <input type="text" class="form-control" id="body" placeholder="1 part Grape Kool-Aid, 1 part vodka" name="body">
           </div>
 

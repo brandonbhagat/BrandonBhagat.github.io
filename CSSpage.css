@@ -2,36 +2,112 @@ body {
 	font-family: 'Play', helvetica neue, arial, sans-serif;
 	background-color: floralwhite;
 	background-size: cover;
-}
-
-
-.hello {
-	color: goldenrod;
-}
-
-.goodbye {
-	color: goldenrod;
-}
-
-.kings {
 
 }
 
-.stanley {
-	color: dimgray;
-}
-
-.yep {
-	background: url(stanley.jpg);
+#htmlbody{
+	background: url(beach.jpg);
 	background-size: cover;
-	color: gold;
-	font-size: 30px;
+	background-position: center center;
+	background-attachment: fixed;	
 }
 
-.teams {
-	padding-top: 20px;
+#superbowlbody{
+	background: url(field.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
+
+#kingsbody {
+	background: url(kingsice.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	}
+
 
 .row {
 	padding-top: 20px;
+}
+
+.jumbotron {
+	background-color: transparent !important;	
+	border: 10px dotted black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px; 
+	margin-top: 0px; 
+	margin-left: 5px; 
+	margin-right: 5px;
+	color: black;
+}
+
+#smalltext {
+	font-size: 20px;
+}
+
+#nav {
+	font-size: 20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+
+
+#sbteams {
+	background-color: transparent;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+#sbteams1 {
+	color: floralwhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 50px;
+	padding-top: 50px;
+	
+}
+
+#sbteams2 {
+	font-size: 20px;
+	color: floralwhite;
+}
+
+#sbjumbo {
+	color: floralwhite;
+	border-color: floralwhite;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#brady {
+	color: floralwhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#stats {
+	color: floralwhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-top: 50px;
+}
+
+#statstable {
+	color: floralwhite;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+}
+
+#kingjumbo {
+
+}
+
+#kings {
+	color: black;
+}
+
+#kingstable {
+	font-size: 20px;
+}
+
+.table-bordered {
+	background-color: transparent
+	border-color: black;
 }

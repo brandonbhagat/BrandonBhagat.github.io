@@ -10,9 +10,9 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="superbowlbody">
   <div class="container">
-    <nav class="navbar">
+    <nav class="navbar" id="nav">
       <div class="container-fluid">
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -33,15 +33,15 @@
     </nav>
 
 
-  <div class="jumbotron">
-      <h1>Kool-Aid Man's NFL Playoff Picks!</h1>
+  <div class="jumbotron" id="sbjumbo">
+      <h1>KAM's NFL Playoffs Page</h1>
   </div>
 
   <div class="row">
     <div class="col-xs-3">
     </div>
     <div class="col-xs-6">
-        <img src="AndyReid.png" width=600 height=500>
+        <img src="AndyReid.png" width=500 height=400>
     </div>  
     <div class="col-xs-3">
     </div>
@@ -51,13 +51,13 @@
     <div class="col-xs-4">
     </div>
     <div class="col-xs-4">
-      <h1 class="teams"><strong> Teams</strong></h1>
+      <h1  id="sbteams1"><strong> Teams</strong></h1>
     </div>
     <div class="col-xs-4">
     </div>
   </div>
 
-  <div class="row">  
+  <div class="row" id="sbteams">  
     <div class="col-xs-2">
       <img src="hawk.png" width=150 height=75>
     </div>
@@ -65,11 +65,11 @@
       <h2> <a href="http://espn.go.com/nfl/team/_/name/sea/seattle-seahawks"> Seattle Seahawks</a> </h2>
     </div>
     <div class="col-xs-6">
-      <p>The Seahawks finished the regular season 12-4 led by QB Russell Wilson and RB Marshawn Lynch. They beat the Baltimore Ravens and the Green Bay Packers in the the 2015 NFL Playoffs and will take on New England in Arizona for the Super Bowl.</p>
+      <p id="sbteams2">The Seahawks finished the regular season 12-4 led by QB Russell Wilson and RB Marshawn Lynch. They beat the Baltimore Ravens and the Green Bay Packers in the the 2015 NFL Playoffs and will take on New England in Arizona for the Super Bowl.</p>
     </div>
   </div>
 
-  <div class="row">  
+  <div class="row"  id="sbteams">  
     <div class="col-xs-2">
       <img src="pats.png" width=150 height=75>
     </div>
@@ -77,7 +77,7 @@
       <h2> <a href="http://espn.go.com/nfl/team/_/name/ne/new-england-patriots"> New England Patriots</a> </h2> 
     </div>
     <div class="col-xs-6">
-      <p>The Patriots finished the regular season 12-4 led by QB Tom Brady and TE Rob Gronkowski. They beat the Baltimore Ravens and the Indianapolis Colts in the 2015 NFL Playoffs and will take on Seattle in Arizona for the Super Bowl.</p>
+      <p  id="sbteams2">The Patriots finished the regular season 12-4 led by QB Tom Brady and TE Rob Gronkowski. They beat the Baltimore Ravens and the Indianapolis Colts in the 2015 NFL Playoffs and will take on Seattle in Arizona for the Super Bowl.</p>
     </div>
   </div>  
 
@@ -96,14 +96,12 @@
     </div>
   </div> 
     
-  <div class="row">
-    <div class="col-xs-3">
+  <div class="row" id="brady">
+    <div class="col-xs-6">
       <h2> And the winner is... </h2>
     </div>
-    <div class="col-xs-5">
+    <div class="col-xs-6">
       <img src="brady.jpg" width=400 height=300>
-    </div>
-    <div class="col-xs-4">
       <h1> Patriots 28, Seahwawks 24 </h1>
     </div>
   </div>
@@ -112,21 +110,21 @@
     <div class="col-xs-4">
     </div>
     <div class="col-xs-4">
-      <h1>Key Statistics</h1>
+      <h1  id="stats">Key Statistics</h1>
     </div>
     <div class="col-xs-4">
     </div>
   </div>
 
   <table class="table table-bordered">
-      <thead>
+      <thead id="statstable">
         <tr>
           <th>Player</th>
           <th>Position</th>
           <th>Numbers</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="statstable">
         <tr>
           <td>Tom Brady</td>
           <td>QB</td>
